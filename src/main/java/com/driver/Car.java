@@ -67,6 +67,7 @@ public class Car extends Vehicle {
 
     public Car(String name, int wheels, int doors, int gears, boolean isManual, String type, int seats) {
         //Hint: Car extends Vehicle
+        super(name);
         setName(name);
         setWheels(wheels);
         setDoors(doors);
